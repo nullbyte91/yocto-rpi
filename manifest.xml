@@ -4,6 +4,7 @@
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="git://github.com/meta-qt5" name="meta-qt5"/>
   <remote fetch="git://github.com/jumpnow/meta-rpi" name="meta-rpi"/>
+  <remote fetch="git://github.com/nullbyte91/meta-rpi-config" name="meta-rpi-config"/>
 
  <project remote="yocto" name="poky" revision="sumo" path="sources/poky"/>
  <project remote="yocto" name="meta-raspberrypi" revision="sumo" path="sources/meta-raspberrypi"/>
@@ -11,6 +12,7 @@
  <project remote="oe" name="meta-openembedded" revision="sumo" path="sources/meta-openembedded"/>
  <project remote="meta-qt5" name="meta-qt5" revision="sumo" path="sources/meta-qt5"/>
  <project remote="meta-rpi" name="meta-rpi" revision="sumo" path="sources/meta-rpi"/>
+ <project remote="meta-rpi-config" name="meta-rpi-config" revision="sumo" path="sources/meta-rpi-config"/>
 
   <!-- End MODULE dev-other -->
 
