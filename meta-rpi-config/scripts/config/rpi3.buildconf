@@ -1,0 +1,2 @@
+DESCRIPTION=raspberrypi3 (BCM2837)
+MACHINE=raspberrypi3
