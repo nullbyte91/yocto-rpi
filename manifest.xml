@@ -8,7 +8,7 @@
  <project remote="yocto" name="meta-raspberrypi" revision="sumo" path="sources/meta-raspberrypi"/>
  <project remote="yocto" name="meta-security" revision="sumo" path="sources/meta-security"/>
  <project remote="oe" name="meta-openembedded" revision="sumo" path="sources/meta-openembedded"/>
- <project remote="github" name="meta-qt5" revision="sumo" path="sources/meta-qt5"/>
+ <project remote="github" name="meta-qt5" revision="sumo" path="meta-qt5/meta-qt5"/>
 
   <!-- End MODULE dev-other -->
 
