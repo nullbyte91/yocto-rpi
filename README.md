@@ -7,4 +7,5 @@ This is manifest repository for raspberry pi yocto compilation It will allow rep
 mkdir -p rpi_yocto_build
 repo init -u https://github.com/nullbyte91/Yocto-manifest-RPI -m manifest.xml -b nullbyte_91
 repo sync
+source sources/poky/oe-init-build-env
 ```
