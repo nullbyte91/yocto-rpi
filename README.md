@@ -13,6 +13,11 @@ cp ../sources/meta-rpi/conf/local.conf.sample conf/local.conf
 cp ../sources/meta-rpi/conf/bblayers.conf.sample conf/bblayers.conf
 ```
 
+<b>Note:</b>
+In bblayers.conf file replace ${HOME} with the appropriate path to the meta-layer repositories on your system if you modified any of the paths in the previous instructions.
+
+<b>WARNING:</b>
+Do not include meta-yocto-bsp in your bblayers.conf. The Yocto BSP requirements for the Raspberry Pi are in meta-raspberrypi.
 ```python3
 #Build the image
 bitbake core-image-minimal
